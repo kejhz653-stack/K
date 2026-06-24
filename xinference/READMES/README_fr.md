@@ -55,69 +55,6 @@ Xorbits Inference (Xinference) est une bibliothèque puissante et polyvalente po
 - Intégration de [VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) : [#5045](https://github.com/xorbitsai/inference/pull/5045)
 - Intégration de [DeepSeek V4] : [#4938](https://github.com/xorbitsai/inference/pull/4938)
 - Intégration de [MiniMax-M2.7] : [#4843](https://github.com/xorbitsai/inference/pull/4843)
-### Intégrations
-- [Xagent](https://github.com/xorbitsai/xagent) : plateforme d'agents pour entreprises avec planification, mémoire et intégration d'outils.
-- [Dify](https://docs.dify.ai/advanced/model-configuration/xinference) : plateforme LLMOps pour construire rapidement des applications avec visualisation et contrôle.
-- [FastGPT](https://github.com/labring/FastGPT) : plateforme de connaissances basée sur LLM pour le traitement des données et les appels de modèles.
-- [RAGFlow](https://github.com/infiniflow/ragflow) : moteur RAG open-source pour la compréhension approfondie des documents.
-- [MaxKB](https://github.com/1Panel-dev/MaxKB) : assistant de base de connaissances open-source avec intégration RAG.
-<div align="center">
-<img src="../assets/xorbits-logo.png"  width="180px" alt="xorbits" />
-
-# Xorbits Inference : Simplifier le déploiement de modèles 🤖
-
-<p align="center">
-  <a href="https://xinference.io/en">Xinference Enterprise</a> ·
-  <a href="https://inference.readthedocs.io/en/latest/getting_started/installation.html#installation">Auto-hébergement</a> ·
-  <a href="https://inference.readthedocs.io/">Documentation</a>
-</p>
-
-[![PyPI Latest Release](https://img.shields.io/pypi/v/xinference.svg?style=for-the-badge)](https://pypi.org/project/xinference/)
-[![License](https://img.shields.io/pypi/l/xinference.svg?style=for-the-badge)](https://github.com/xorbitsai/inference/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/xorbitsai/inference/python.yaml?branch=main&style=for-the-badge&label=GITHUB%20ACTIONS&logo=github)](https://actions-badge.atrox.dev/xorbitsai/inference/goto?ref=main)
-[![Docker Pulls](https://img.shields.io/docker/pulls/xprobe/xinference?style=for-the-badge&logo=docker)](https://hub.docker.com/r/xprobe/xinference)
-[![Discord](https://img.shields.io/badge/join_Discord-5462eb.svg?logo=discord&style=for-the-badge&logoColor=%23f5f5f5)](https://discord.gg/Xw9tszSkr5)
-[![Telegram](https://img.shields.io/badge/join_Telegram-26A5E4.svg?logo=telegram&style=for-the-badge&logoColor=white)](https://t.me/+nCNpwmySwk9iYmI1)
-[![Twitter](https://img.shields.io/twitter/follow/xorbitsio?logo=x&style=for-the-badge)](https://twitter.com/xorbitsio)
-
-<p align="center">
-  <a href="../README.md"><img alt="English" src="https://img.shields.io/badge/English-blue?style=for-the-badge"></a>
-  <a href="./README_ja_JP.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-blue?style=for-the-badge"></a>
-  <a href="./README_ko.md"><img alt="한국어" src="https://img.shields.io/badge/한국어-blue?style=for-the-badge"></a>
-  <a href="./README_de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-blue?style=for-the-badge"></a>
-  <a href="./README_fr.md"><img alt="Français" src="https://img.shields.io/badge/Français-blue?style=for-the-badge"></a>
-  <br>
-  <a href="./README_es.md"><img alt="Español" src="https://img.shields.io/badge/Español-blue?style=for-the-badge"></a>
-  <a href="./README_it.md"><img alt="Italiano" src="https://img.shields.io/badge/Italiano-blue?style=for-the-badge"></a>
-  <a href="./README_pt_BR.md"><img alt="Português" src="https://img.shields.io/badge/Português-blue?style=for-the-badge"></a>
-  <a href="./README_zh_TW.md"><img alt="繁體中文" src="https://img.shields.io/badge/繁體中文-blue?style=for-the-badge"></a>
-  <a href="./README_zh_CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-blue?style=for-the-badge"></a>
-</p>
-</div>
-<br />
-
-Xorbits Inference (Xinference) est une bibliothèque puissante et polyvalente pour les modèles de langage, la reconnaissance vocale et les modèles multimodaux. Avec Xorbits Inference, vous pouvez déployer votre propre modèle ou des modèles avancés intégrés en une seule commande et les proposer en tant que service. Chercheurs, développeurs et data scientists peuvent exploiter pleinement les capacités des modèles IA modernes.
-
-<div align="center">
-<i><a href="https://discord.gg/Xw9tszSkr5">👉 Rejoignez notre communauté Discord !</a> · <a href="https://t.me/+nCNpwmySwk9iYmI1">Rejoignez notre groupe Telegram</a></i>
-</div>
-
-## 🔥 Sujets phares
-### Améliorations du framework
-- Déploiement natif d'agents : Xinference s'intègre à [Xagent](https://github.com/xorbitsai/xagent) et permet la planification dynamique, l'utilisation d'outils et des inférences multi-étapes autonomes, dépassant les limites des pipelines statiques.
-- Batching automatique : plusieurs requêtes simultanées sont automatiquement groupées pour augmenter significativement le débit. : [#4197](https://github.com/xorbitsai/inference/pull/4197)
-- [Xllamacpp](https://github.com/xorbitsai/xllamacpp) : les nouvelles liaisons Python pour llama.cpp, maintenues par l'équipe Xinference, prennent en charge le batching continu et conviennent mieux à la production. : [#2997](https://github.com/xorbitsai/inference/pull/2997)
-- Inférence distribuée : les modèles peuvent être exécutés entre plusieurs workers : [#2877](https://github.com/xorbitsai/inference/pull/2877)
-- Améliorations de vLLM : partage du KV-cache entre plusieurs réplicas : [#2732](https://github.com/xorbitsai/inference/pull/2732)
-### Nouveaux modèles
-- Intégration de [MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) : [#5010](https://github.com/xorbitsai/inference/pull/5010)
-- Série intégrée jina-embeddings-v5 (par ex. [text-nano](https://huggingface.co/jinaai/jina-embeddings-v5-text-nano), [text-small](https://huggingface.co/jinaai/jina-embeddings-v5-text-small)) : [#5018](https://github.com/xorbitsai/inference/pull/5018)
-- Série intégrée MiniCPM-V-4.6 : [#5025](https://github.com/xorbitsai/inference/pull/5025)
-- Série intégrée Tencent Hy-MT2 (1.8B, 7B, 30B-A3B) : [#5029](https://github.com/xorbitsai/inference/pull/5029)
-- Intégration de [PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6) : [#5033](https://github.com/xorbitsai/inference/pull/5033)
-- Intégration de [VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) : [#5045](https://github.com/xorbitsai/inference/pull/5045)
-- Intégration de [DeepSeek V4] : [#4938](https://github.com/xorbitsai/inference/pull/4938)
-- Intégration de [MiniMax-M2.7] : [#4843](https://github.com/xorbitsai/inference/pull/4843)
 - Intégration de [MiniMax-M2.7] : [#4843](https://github.com/xorbitsai/inference/pull/4843)
 ### Intégrations
 - [Xagent](https://github.com/xorbitsai/xagent) : plateforme d'agents pour entreprises avec planification, mémoire et intégration d'outils.
@@ -163,25 +100,25 @@ Xorbits Inference (Xinference) est une bibliothèque puissante et polyvalente po
 
 ## Restez à la pointe
 
-Sternen Sie Xinference auf GitHub, um Release-Updates zu erhalten.
+Ajoutez une étoile à Xinference sur GitHub pour recevoir des notifications sur les nouvelles versions.
 
 ![star-us](../assets/stay_ahead.gif)
 
-## Einstieg
+## Commencer
 
-* [Dokumentation](https://inference.readthedocs.io/en/latest/index.html)
-* [Integrierte Modelle](https://inference.readthedocs.io/en/latest/models/builtin/index.html)
-* [Custom-Modelle](https://inference.readthedocs.io/en/latest/models/custom.html)
-* [Deployment-Dokumentation](https://inference.readthedocs.io/en/latest/getting_started/using_xinference.html)
-* [Beispiele und Tutorials](https://inference.readthedocs.io/en/latest/examples/index.html)
+* [Documentation](https://inference.readthedocs.io/en/latest/index.html)
+* [Modèles intégrés](https://inference.readthedocs.io/en/latest/models/builtin/index.html)
+* [Modèles personnalisés](https://inference.readthedocs.io/en/latest/models/custom.html)
+* [Documentation de déploiement](https://inference.readthedocs.io/en/latest/getting_started/using_xinference.html)
+* [Exemples et tutoriels](https://inference.readthedocs.io/en/latest/examples/index.html)
 
 ### Jupyter Notebook
 
-Die einfachste Möglichkeit, Xinference auszuprobieren, ist das [Google Colab Jupyter Notebook](https://colab.research.google.com/github/xorbitsai/inference/blob/main/examples/Xinference_Quick_Start.ipynb).
+Le moyen le plus simple d'essayer Xinference est d'utiliser le [Jupyter Notebook Google Colab](https://colab.research.google.com/github/xorbitsai/inference/blob/main/examples/Xinference_Quick_Start.ipynb).
 
 ### Docker
 
-NVIDIA-GPU-Benutzer können das [Xinference Docker Image](https://inference.readthedocs.io/en/latest/getting_started/using_docker_image.html) verwenden. Stellen Sie sicher, dass Docker und CUDA vor der Installation vorhanden sind.
+Les utilisateurs de GPU NVIDIA peuvent utiliser l'[image Docker de Xinference](https://inference.readthedocs.io/en/latest/getting_started/using_docker_image.html). Assurez-vous que Docker et CUDA sont installés avant de procéder à l'installation.
 
 ```bash
 docker run --name xinference -d -p 9997:9997 -e XINFERENCE_HOME=/data -v </on/your/host>:/data --gpus all xprobe/xinference:latest xinference-local -H 0.0.0.0

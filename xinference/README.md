@@ -19,16 +19,16 @@
 
 <p align="center">
   <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-blue?style=for-the-badge"></a>
-  <a href="./other/README_ja_JP.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-blue?style=for-the-badge"></a>
-  <a href="./other/README_ko.md"><img alt="한국어" src="https://img.shields.io/badge/한국어-blue?style=for-the-badge"></a>
-  <a href="./other/README_de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-blue?style=for-the-badge"></a>
-  <a href="./other/README_fr.md"><img alt="Français" src="https://img.shields.io/badge/Français-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_ja_JP.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_ko.md"><img alt="한국어" src="https://img.shields.io/badge/한국어-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_fr.md"><img alt="Français" src="https://img.shields.io/badge/Français-blue?style=for-the-badge"></a>
   <br>
-  <a href="./other/README_es.md"><img alt="Español" src="https://img.shields.io/badge/Español-blue?style=for-the-badge"></a>
-  <a href="./other/README_it.md"><img alt="Italiano" src="https://img.shields.io/badge/Italiano-blue?style=for-the-badge"></a>
-  <a href="./other/README_pt_BR.md"><img alt="Português" src="https://img.shields.io/badge/Português-blue?style=for-the-badge"></a>
-  <a href="./other/README_zh_TW.md"><img alt="繁體中文" src="https://img.shields.io/badge/繁體中文-blue?style=for-the-badge"></a>
-  <a href="./other/README_zh_CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_es.md"><img alt="Español" src="https://img.shields.io/badge/Español-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_it.md"><img alt="Italiano" src="https://img.shields.io/badge/Italiano-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_pt_BR.md"><img alt="Português" src="https://img.shields.io/badge/Português-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_zh_TW.md"><img alt="繁體中文" src="https://img.shields.io/badge/繁體中文-blue?style=for-the-badge"></a>
+  <a href="./READMES/README_zh_CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-blue?style=for-the-badge"></a>
 </p>
 </div>
 <br />
